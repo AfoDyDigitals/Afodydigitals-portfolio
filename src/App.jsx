@@ -4,7 +4,8 @@ import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
 import ProjectBars from "./ProjectBars";
-import Projects from "./Projects";
+import FrontendProjects from "./FrontendProjects";
+import UiProjects from "./UiProjects";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <About />
       <Skills />
       <ProjectBars />
-      <Projects/>
+      <FrontendProjects />
+      <UiProjects />
     </div>
   );
 }
