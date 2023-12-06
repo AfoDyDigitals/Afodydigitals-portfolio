@@ -12,11 +12,11 @@ function NavBar() {
         <div>Projects</div>
         <div>Contact</div>
       </div>
-      <div className="hidden md:flex inline-block bg-amber-500 w-[142px] h-[45px] rounded-[20px] mr-[129.54px]  justify-center items-center text-xl font-bold">
+      <div className="hidden hover:bg-yellow-500 md:flex inline-block bg-amber-500 w-[142px] h-[45px] rounded-[20px] mr-[129.54px]  justify-center items-center text-xl font-bold">
         Hire me
       </div>
       <img
-        className="w-[24px] md:mr-[257px] w-[40px]"
+        className="bg-amber-500 rounded-[20px] w-[24px] md:mr-[257px] w-[40px]"
         src="./src/Graphics/darkmode.svg"
       />
       <img

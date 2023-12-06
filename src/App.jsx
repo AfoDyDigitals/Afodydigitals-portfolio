@@ -6,10 +6,12 @@ import Skills from "./Skills";
 import ProjectBars from "./ProjectBars";
 import FrontendProjects from "./FrontendProjects";
 import UiProjects from "./UiProjects";
+import ContactForm from "./ContactForm";
+
 
 function App() {
   return (
-    <div>
+    <div className="text-black dark:bg-slate-800 text-white">
       <NavBar />
       <Hero />
       <About />
@@ -17,6 +19,7 @@ function App() {
       <ProjectBars />
       <FrontendProjects />
       <UiProjects />
+      <ContactForm />
     </div>
   );
 }

@@ -23,7 +23,7 @@ function About() {
           I specialise in identifying user needs and creating<br></br>{" "}
           accessible user interfaces and usable frontend designs
         </div>
-        <div className=" mt-[15px] flex justify-center items-center bg-amber-500 w-[98.5px] h-[44px] rounded-[20px] text-[10px] font-bold md:w-[143px] h-[45px] justify-center items-center text-[20px] mt-[14px] font-bold">
+        <div className="hover:bg-yellow-500 mt-[15px] flex justify-center items-center bg-amber-500 w-[98.5px] h-[44px] rounded-[20px] text-[10px] font-bold md:w-[143px] h-[45px] justify-center items-center text-[20px] mt-[14px] font-bold">
           Hire me
         </div>
       </div>
