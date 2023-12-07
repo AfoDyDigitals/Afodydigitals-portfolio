@@ -7,6 +7,7 @@ import ProjectBars from "./ProjectBars";
 import FrontendProjects from "./FrontendProjects";
 import UiProjects from "./UiProjects";
 import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <FrontendProjects />
       <UiProjects />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
