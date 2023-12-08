@@ -8,12 +8,14 @@ import FrontendProjects from "./FrontendProjects";
 import UiProjects from "./UiProjects";
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
+import SideBar from "./SideBar";
 
 
 function App() {
   return (
-    <div className="text-black dark:bg-slate-800 text-white">
+    <div className="relative text-black dark:bg-slate-800 text-white">
       <NavBar />
+      <SideBar />
       <Hero />
       <About />
       <Skills />

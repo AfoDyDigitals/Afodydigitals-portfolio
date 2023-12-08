@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className=" absolute top-6 w-[100vw] flex mx-[36px] md:flex mx-[129px] justify-center items-center justify-between">
+    <div className=" absolute top-0 w-[100vw] flex mx-[36px] md:flex mx-[129px] justify-center items-center justify-between">
       <div className="text-[24px] font-bold text-amber-500 md:text-[26px]">
         AfoDyDigitals
       </div>

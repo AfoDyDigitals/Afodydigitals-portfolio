@@ -22,7 +22,7 @@ function Hero() {
             I am a UI & Frontend <br></br>Designer
           </div>
           <div className="flex justify-center items-center gap-[14.5px]">
-            <div className="animate-pulse cursor-pointer mt-[32px] hover:bg-yellow-500 flex justify-center items-center bg-amber-500 w-[98.5px] h-[44px] rounded-[20px] text-[10px] font-bold md:w-[169px] h-[54px]  justify-center items-center text-[18px] font-bold">
+            <div className=" cursor-pointer mt-[32px] hover:bg-yellow-500 flex justify-center items-center bg-amber-500 w-[98.5px] h-[44px] rounded-[20px] text-[10px] font-bold md:w-[169px] h-[54px]  justify-center items-center text-[18px] font-bold">
               Hire me
             </div>
             <div className="cursor-pointer hover:bg-black text-amber-500 mt-[32px] flex justify-center items-center border-solid border-2 border-amber-500 w-[98.5px] h-[44px] rounded-[20px] text-[10px] font-bold md:w-[169px] h-[54px] gap-[25px] justify-center items-center text-[18px] font-bold">
