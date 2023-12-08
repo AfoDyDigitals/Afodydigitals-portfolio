@@ -2,12 +2,12 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="flex flex-col justify-center ">
-      <hr className="items-center w-auto mx-[42px] mt-[56px] md:w-auto mx-[135px] "></hr>
+    <div className="bg-black flex flex-col justify-center items-center">
+      {/* <hr className="items-center w-auto mx-[42px] mt-[56px] md:w-auto mx-[135px] "></hr> */}
       <div className="flex mt-[32px] justify-center text-[20px] font-bold text-amber-500  md:text-[43px] ">
         Skills & Technology
       </div>
-      <div className="gap-2 columns-5 mt-[30px] mb-[30px] md:flex justify-center gap-[70px] mx-[59px]">
+      <div className="animate-pulse gap-2 columns-5 mt-[30px] mb-[32px] md:flex justify-center gap-[70px] mx-[59px] mb-[32px]">
         <img
           className="w-[32px] md:w-[43.71px] h-[43.62px]"
           src="./src/Graphics/CSS.svg"
@@ -49,7 +49,7 @@ function Skills() {
           src="./src/Graphics/Adobeillustrator.svg"
         />
       </div>
-      <hr className="flex justify-center items-center w-auto mx-[42px] md:w-auto mx-[135px]"></hr>
+      {/* <hr className="flex justify-center items-center w-auto mx-[42px] mb-[56px] md:w-auto mx-[135px] mb-[56px]"></hr> */}
     </div>
   );
 }

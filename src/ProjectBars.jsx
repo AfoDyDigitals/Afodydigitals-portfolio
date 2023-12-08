@@ -4,7 +4,7 @@ function ProjectBars() {
   return (
     <div className="relative">
       <img
-        className="w-[106px] absolute top-[50px] right-[30px] z-[0]"
+        className="animate-pulse w-[106px] absolute top-[50px] right-[30px] z-[0]"
         src="./src/Graphics/pattern.svg"
       />
       <div className="flex mt-[32px] justify-center text-[20px] font-bold text-amber-500 mb-[30.3px] md:text-[43px] mb-[40px]">

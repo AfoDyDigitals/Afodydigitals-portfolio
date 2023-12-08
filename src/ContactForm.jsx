@@ -2,15 +2,15 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div classNameName="">
+    <div classNameName="flex justify-center items-center">
       
       <form action="#" method="POST" className="relative bg-black border-2 border-white flex flex-col justify-center items-center w-[340px] h-auto rounded-[20px] mx-[37px] mt-[95px] dark:text-white md:w-[1146px] h-auto mt-[157px] mx-[147px]">
       <img
-        className="w-[106px] absolute top-[-50px] left-[80px] z-[10] md:top-[-50px] left-[-50px]"
+        className="animate-pulse w-[106px] absolute top-[-50px] left-[80px] z-[10] md:top-[-50px] left-[-50px]"
         src="./src/Graphics/pattern.svg"
         />
         <img
-        className="w-[106px] absolute top-[500px] right-[50px] z-[10] md:top-[485px] right-[-50px]"
+        className="animate-pulse w-[106px] absolute top-[500px] right-[50px] z-[10] md:top-[485px] right-[-50px]"
         src="./src/Graphics/pattern.svg"
         />
         <div className="flex grid grid-cols-1 mx-[44px] mt-[11px] w-[251px] md:w-[789px] mt-[24px]  mx-[179px]">
@@ -73,7 +73,7 @@ function ContactForm() {
         <div className="mt-5">
           <button
             type="submit"
-            className="block w-full rounded-20 bg-amber-500 w-[77px] h-[30px] mt-[24px] mb-[20px] text-center text-[20px] font-bold text-black shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500 md:w-[142px] h-[46px] mt-[32px]"
+            className=" cursor-pointer block w-full rounded-20 bg-amber-500 w-[77px] h-[30px] mt-[24px] mb-[20px] text-center text-[20px] font-bold text-black shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500 md:w-[142px] h-[46px] mt-[32px]"
           >
             Send
           </button>
