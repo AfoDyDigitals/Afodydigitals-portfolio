@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+function Hero(props) {
   return (
     <>
       <img
@@ -15,10 +15,10 @@ function Hero() {
           />
         </div>
         <div className="flex flex-col justify-center items-center mx-[102px] md: ">
-          <div className="text-[18px] font-bold md:text-[33px] font-bold text-center">
+          <div className={`${props.theme?"text-white":"text-black"} text-[18px] font-bold md:text-[33px] font-bold text-center`}>
             Hi there,
           </div>
-          <div className="text-center text-[38px] font-bold md:text-[69px] font-bold">
+          <div className={`${props.theme?"text-white":"text-black"} text-center  text-[38px] font-bold md:text-[69px] font-bold`}>
             I am a UI & Frontend <br></br>Designer
           </div>
           <div className="flex justify-center items-center gap-[14.5px]">

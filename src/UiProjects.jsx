@@ -3,10 +3,10 @@ import Card from "./Card";
 
 function UiProjects() {
   return (
-    <div>
+    <div id="ui-projects">
       <div
         className=" hidden mt-[74px] gap-[74px] flex  justify-center items-center md:hidden flex flex-wrap mx-[169px]"
-        id="frontend-projects"
+        
       >
         <Card
           image="./src/Graphics/FOOTBALL TICKET WEBSITE DESKTOP MOCKUP.jpg"

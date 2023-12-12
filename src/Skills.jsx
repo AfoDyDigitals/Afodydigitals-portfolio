@@ -1,8 +1,8 @@
 import React from "react";
 
-function Skills() {
+function Skills(props) {
   return (
-    <div className="bg-black flex flex-col justify-center items-center">
+    <div className="mt-[50px] bg-black flex flex-col justify-center items-center">
       {/* <hr className="items-center w-auto mx-[42px] mt-[56px] md:w-auto mx-[135px] "></hr> */}
       <div className="flex mt-[32px] justify-center text-[20px] font-bold text-amber-500  md:text-[43px] ">
         Skills & Technology

@@ -1,8 +1,8 @@
 import React from "react";
 
-function About() {
+function About(props) {
   return (
-    <div className="flex flex-col justify-center items-center gap-[0px] mt-[50px] mb-[20px] md:flex-row mt-[100px] gap-[181.93px] mx-[146px] mb-[20px]">
+    <div className="flex flex-col justify-center items-center gap-[0px] mt-[50px] mb-[30px] md:flex-row mt-[150px] gap-[181.93px] mx-[146px] mb-[30px]">
       <div className="w-[247.55px] h-[245.86px] md:w-[367.31px] h-[364.8px]">
         <img src="./src/Graphics/Hero-webdev.svg" />
       </div>
@@ -11,7 +11,7 @@ function About() {
         <div className="text-[20px] font-bold text-amber-500 md:text-[43px]">
           About me
         </div>
-        <div className="text-center md:text-left">
+        <div className={`${props.theme?"text-white":"text-black"} text-center md:text-left`}>
           <span className="text-[23px] font-bold mt-[20px] dark:text-white md:text-[49px]">
             I'm Temidayo Afolabi{" "}
           </span>
@@ -20,7 +20,7 @@ function About() {
             (AfoDyDigitals)
           </span>
         </div>
-        <div className="text-[14px] font-normal text-center md:text-[26px] text-left mt-[17px]">
+        <div className={`${props.theme?"text-white":"text-black"} text-[14px] font-normal text-center md:text-[26px] text-left mt-[17px]`}>
           I specialise in identifying user needs and creating<br></br>
           accessible user interfaces and usable frontend designs
         </div>

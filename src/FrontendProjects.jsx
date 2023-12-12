@@ -3,10 +3,10 @@ import Card from "./Card";
 
 function FrontendProjects() {
   return (
-    <div>
+    <div id="frontend-projects">
       <div
         className="mt-[74px] gap-[74px] flex  justify-center items-center md:flex flex-wrap mx-[169px]"
-        id="frontend-projects"
+       x
       >
         <Card
           image="./src/Graphics/To-do list app.png"

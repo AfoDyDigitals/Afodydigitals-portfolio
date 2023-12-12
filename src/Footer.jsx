@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+function Footer(props) {
   return (
     <div className="relative flex justify-center items-center dark:text-white">
       <div className="flex gap-[187px] mx-[36px] mt-[157px] mb-[50px] md:flex mx-[129px] justify-center items-center justify-between">
@@ -14,7 +14,7 @@ function Footer() {
           src="./src/Graphics/Github.svg"
         />
       </div>
-        <div className="hidden md:flex gap-[50px] text-xl font-bold">
+        <div className={`${props.theme?"text-white":"text-black"} hidden md:flex gap-[50px] text-xl font-bold`}>
           <div className='cursor-pointer'>About</div>
           <div className='cursor-pointer'>Skills</div>
           <div className='cursor-pointer'>Projects</div>
