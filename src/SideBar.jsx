@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SideBar({ isVisible, toggleSidebar }) {
 
@@ -12,23 +13,32 @@ function SideBar({ isVisible, toggleSidebar }) {
         src="./src/Graphics/CloseIcon.svg"
       />
       <div className="flex flex-col text-black gap-[22px] mt-[50px] mb-[50px]">
-        <div className="ml-[43px] text-[20px] font-bold">About</div>
+      
+        <Link to="about"><div className="ml-[43px] text-[20px] font-bold">About</div></Link>
+        
         <hr className="bg-black"></hr>
-        <div className="ml-[43px] text-[20px] font-bold">Skills</div>
+        <Link to="/skills"><div className="ml-[43px] text-[20px] font-bold">Skills</div></Link>
+        
         <hr className="bg-black"></hr>
-        <div className="ml-[43px] text-[20px] font-bold">Projects</div>
+        <Link to="/projects"><div className="ml-[43px] text-[20px] font-bold">Projects</div></Link>
+        
         <hr className="bg-black"></hr>
-        <div className="ml-[43px] text-[20px] font-bold">Contact</div>
+        <Link to="/contact"><div className="ml-[43px] text-[20px] font-bold">Contact</div></Link>
+        
       </div>
       <div className="flex justify-left items-center gap-[13px] ml-[43px] pt-[57px] mb-[57px]">
-        <img
-          className="cursor-pointer w-[24px]"
-          src="./src/Graphics/DribbbleSidebar.svg"
-        />
-        <img 
-          className="w-[24px]" 
-          src="./src/Graphics/GithubSidebar.svg" 
-        />
+      <a href="https://dribbble.com/AfoDyDigitals">
+          <img
+            className="cursor-pointer w-[24px]"
+            src="./src/Graphics/DribbbleSidebar.svg"
+          />
+        </a>
+        <a href="https://github.com/AfoDyDigitals">
+          <img
+            className="cursor-pointer w-[24px]"
+            src="./src/Graphics/GithubSidebar.svg"
+          />
+        </a>
       </div>
     </div>
   );

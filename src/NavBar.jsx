@@ -20,7 +20,7 @@ function NavBar(props) {
     <nav
       className={`${
         props.theme ? "bg-black" : "bg-white"
-      } fixed top-0 pt-[50px] pb-[20px] px-[36px] flex justify-center items-center justify-between z-10 md:px-[129px] flex justify-center items-center justify-between`}
+      } fixed top-0 pt-[50px] mb-[20px] px-[36px] flex justify-center items-center justify-between z-10 md:px-[129px] flex justify-center items-center justify-between`}
     >
       <Link to="/">
         <div className="text-[24px] font-bold text-amber-500 md:text-[26px]">

@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import NoPage from "./NoPage";
 import { BrowserRouter, Router, Routes, Route, Link } from "react-router-dom";
 import Project from "./Project";
+import Home from "./Home";
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -27,7 +28,7 @@ function App() {
         <NavBar switchMode={toggle} theme={theme} />
 
         <Routes>
-          <Route path="/" element={<Hero theme={theme} />} />
+          <Route path="/" element={<Home theme={theme} />} />
           <Route path="/about" element={<About theme={theme} />} />
           <Route path="/skills" element={<Skills theme={theme} />} />
           <Route path="/projects" element={<Project />} />
