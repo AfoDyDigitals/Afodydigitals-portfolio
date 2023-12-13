@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <div className="relative flex justify-center items-center dark:text-white">
+    <div className="relative flex justify-center items-center dark:text-white ">
       <div className="flex gap-[187px] mx-[36px] mt-[157px] mb-[50px] md:flex mx-[129px] justify-center items-center justify-between">
         <div className="flex justify-center items-center md:ml-[257px]">
         <img

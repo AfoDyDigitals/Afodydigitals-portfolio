@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import SideBar from "./SideBar";
 
 function NavBar(props) {
@@ -15,23 +16,34 @@ function NavBar(props) {
   }
 
   return (
-    <div
+    <div className="w-[100%]">
+    <nav
       className={`${
         props.theme ? "bg-black" : "bg-white"
-      } fixed top-0 pt-[50px] pb-[20px] w-[100vw] px-[36px] flex justify-center items-center justify-between z-10 md:px-[129px] flex justify-center items-center justify-between`}
+      } fixed top-0 pt-[50px] pb-[20px] px-[36px] flex justify-center items-center justify-between z-10 md:px-[129px] flex justify-center items-center justify-between`}
     >
-      <div className="text-[24px] font-bold text-amber-500 md:text-[26px]">
-        AfoDyDigitals
-      </div>
+      <Link to="/">
+        <div className="text-[24px] font-bold text-amber-500 md:text-[26px]">
+          AfoDyDigitals
+        </div>
+      </Link>
       <div
         className={`${
           props.theme ? "text-white" : "text-black"
         } hidden md:flex ml-[155px] mr-[135px] gap-[50px] text-xl font-bold `}
       >
-        <div className="cursor-pointer">About</div>
-        <div className="cursor-pointer">Skills</div>
-        <div className="cursor-pointer">Projects</div>
-        <div className="cursor-pointer">Contact</div>
+        <Link to="about">
+          <div className="cursor-pointer">About</div>
+        </Link>
+        <Link to="/skills">
+          <div className="cursor-pointer">Skills</div>
+        </Link>
+        <Link to="/projects">
+          <div className="cursor-pointer">Projects</div>
+        </Link>
+        <Link to="/contact">
+          <div className="cursor-pointer">Contact</div>
+        </Link>
       </div>
       <div className="hidden cursor-pointer hover:bg-yellow-500 md:flex inline-block bg-amber-500 w-[142px] h-[45px] rounded-[20px] mr-[129.54px] justify-center items-center text-xl font-bold">
         Hire me
@@ -65,7 +77,8 @@ function NavBar(props) {
           src="./src/Graphics/menubar.svg"
         />
       )}
-      {isSidebarVisible && (<SideBar toggleSidebar={toggleSidebar} />)}
+      {isSidebarVisible && <SideBar toggleSidebar={toggleSidebar} />}
+    </nav>
     </div>
   );
 }

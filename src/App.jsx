@@ -3,39 +3,40 @@ import NavBar from "./NavBar";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
-import ProjectBars from "./ProjectBars";
-import FrontendProjects from "./FrontendProjects";
-import UiProjects from "./UiProjects";
+
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 // import SideBar from "./SideBar";
 import NoPage from "./NoPage";
-import {BrowserRouter, Router, Routes, Route, Link} from "react-router-dom";
+import { BrowserRouter, Router, Routes, Route, Link } from "react-router-dom";
+import Project from "./Project";
 
 function App() {
-  const [theme, setTheme]=useState(false)
+  const [theme, setTheme] = useState(false);
   function toggle() {
-    setTheme(!theme)
-
-    
+    setTheme(!theme);
   }
 
   return (
-    // <div className={`relative ${themeClass()} text-black dark:bg-slate-800 text-white`}>
-    <div className={`relative ${theme?"bg-black":"bg-white"} text-black dark:bg-slate-800 text-white`}>
-  
-          <NavBar switchMode={toggle} theme={theme} />
-          {/* <SideBar /> */}
-          <Hero theme={theme} />
-          <About theme={theme} />
-          <Skills theme={theme} />
-          <ProjectBars />
-          <FrontendProjects />
-          <UiProjects />
-          <ContactForm />
-          <Footer theme={theme} />
-    
-    </div>
+    <div
+    className={`relative ${
+      theme ? "bg-black" : "bg-white"
+        } text-black dark:bg-slate-800 text-white w-[100vw]`}
+        >
+        <BrowserRouter>
+        <NavBar switchMode={toggle} theme={theme} />
+
+        <Routes>
+          <Route path="/" element={<Hero theme={theme} />} />
+          <Route path="/about" element={<About theme={theme} />} />
+          <Route path="/skills" element={<Skills theme={theme} />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<ContactForm />} />
+        </Routes>
+
+        <Footer theme={theme} />
+    </BrowserRouter>
+      </div>
   );
 }
 

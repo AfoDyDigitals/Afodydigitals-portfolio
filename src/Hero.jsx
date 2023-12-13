@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero(props) {
   return (
-    <>
+    <div className="w-[100%]">
       <img
         className="w-[106px] absolute top-[300px] animate-bounce"
         src="./src/Graphics/pattern.svg"
@@ -42,7 +42,7 @@ function Hero(props) {
           src="./src/Graphics/Github.svg"
         />
       </div>
-    </>
+    </div>
   );
 }
 

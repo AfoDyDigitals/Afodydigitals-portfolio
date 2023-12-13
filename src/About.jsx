@@ -2,7 +2,8 @@ import React from "react";
 
 function About(props) {
   return (
-    <div className="flex flex-col justify-center items-center gap-[0px] mt-[50px] mb-[30px] md:flex-row mt-[150px] gap-[181.93px] mx-[146px] mb-[30px]">
+    
+    <div className="flex flex-col justify-center w-[100%] items-center gap-[0px] mt-[50px] mb-[30px] md:flex-row mt-[150px] gap-[181.93px] mx-[146px] mb-[30px]">
       <div className="w-[247.55px] h-[245.86px] md:w-[367.31px] h-[364.8px]">
         <img src="./src/Graphics/Hero-webdev.svg" />
       </div>
