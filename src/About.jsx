@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function About(props) {
   return (
-    <div className="flex flex-col justify-center w-[100%] items-center gap-[0px] mt-[50px] mb-[30px] md:flex-row mt-[150px] gap-[181.93px] mx-[146px] mb-[30px]">
+    <div className=" flex flex-col justify-center items-center gap-[8px] mt-[50px] mb-[30px] mx-[52px] md:flex-row items-left gap-[181.93px] mt-[150px]  mx-[146px] mb-[30px]">
       <div className="w-[247.55px] h-[245.86px] md:w-[367.31px] h-[364.8px]">
         <img src="./src/Graphics/Hero-webdev.svg" />
       </div>
@@ -14,20 +14,20 @@ function About(props) {
         <div
           className={`${
             props.theme ? "text-white" : "text-black"
-          } text-center md:text-left`}
+          } w-[100%] text-center md:text-left`}
         >
-          <span className="text-[23px] font-bold mt-[20px] dark:text-white md:text-[49px]">
+          <span className="text-[20px] font-bold mt-[20px] md:text-[38px]">
             I'm Temidayo Afolabi{" "}
           </span>
           <br></br>
-          <span className="text-[16px] font-bold md:text-[33px]">
+          <span className="text-[16px] font-bold md:text-[25px]">
             (AfoDyDigitals)
           </span>
         </div>
         <div
           className={`${
-            props.theme ? "text-white" : "text-black"
-          } text-[14px] font-normal text-center md:text-[26px] text-left mt-[17px]`}
+            props.theme?"text-white":"text-black"
+          } text-[14px] text-center md:text-left text-[20px]  mt-[17px]`}
         >
           I specialise in identifying user needs and creating<br></br>
           accessible user interfaces and usable frontend designs

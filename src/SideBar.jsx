@@ -1,7 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function SideBar({ isVisible, toggleSidebar }) {
+  const navLinkStyles=({isActive})=> {
+    return {
+      fontweight: isActive ? "font-bold":"normal",
+      textDecoration: isActive ? "underline":"none",
+    }
+  }
 
   return (
     <div
@@ -14,26 +20,26 @@ function SideBar({ isVisible, toggleSidebar }) {
       />
       <div className="flex flex-col text-black gap-[22px] mt-[50px] mb-[50px]">
       
-        <Link to="about"><div className="ml-[43px] text-[20px] font-bold">About</div></Link>
+        <NavLink style={navLinkStyles} to="about"><div className="ml-[43px] text-[20px] font-bold">About</div></NavLink>
         
         <hr className="bg-black"></hr>
-        <Link to="/skills"><div className="ml-[43px] text-[20px] font-bold">Skills</div></Link>
+        <NavLink style={navLinkStyles} to="/skills"><div className="ml-[43px] text-[20px] font-bold">Skills</div></NavLink>
         
         <hr className="bg-black"></hr>
-        <Link to="/projects"><div className="ml-[43px] text-[20px] font-bold">Projects</div></Link>
+        <NavLink style={navLinkStyles} to="/projects"><div className="ml-[43px] text-[20px] font-bold">Projects</div></NavLink>
         
         <hr className="bg-black"></hr>
-        <Link to="/contact"><div className="ml-[43px] text-[20px] font-bold">Contact</div></Link>
+        <NavLink style={navLinkStyles} to="/contact"><div className="ml-[43px] text-[20px] font-bold">Contact</div></NavLink>
         
       </div>
       <div className="flex justify-left items-center gap-[13px] ml-[43px] pt-[57px] mb-[57px]">
-      <a href="https://dribbble.com/AfoDyDigitals">
+      <a href="https://dribbble.com/AfoDyDigitals" target="_blank">
           <img
             className="cursor-pointer w-[24px]"
             src="./src/Graphics/DribbbleSidebar.svg"
           />
         </a>
-        <a href="https://github.com/AfoDyDigitals">
+        <a href="https://github.com/AfoDyDigitals" target="_blank">
           <img
             className="cursor-pointer w-[24px]"
             src="./src/Graphics/GithubSidebar.svg"

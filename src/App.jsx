@@ -20,11 +20,9 @@ function App() {
 
   return (
     <div
-    className={`relative ${
-      theme ? "bg-black" : "bg-white"
-        } text-black dark:bg-slate-800 text-white w-[100vw]`}
-        >
-        <BrowserRouter>
+      className={`relative w-[100vw] ${theme ? "bg-black" : "bg-white"} ${theme ? "text-white" : "text-black"}`}
+    >
+      <BrowserRouter>
         <NavBar switchMode={toggle} theme={theme} />
 
         <Routes>
@@ -36,8 +34,8 @@ function App() {
         </Routes>
 
         <Footer theme={theme} />
-    </BrowserRouter>
-      </div>
+      </BrowserRouter>
+    </div>
   );
 }
 

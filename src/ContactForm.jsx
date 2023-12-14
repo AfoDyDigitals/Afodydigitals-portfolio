@@ -2,15 +2,15 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="relative flex justify-center items-center">
       
       <form action="#" method="POST" className="relative bg-black border-2 border-white flex flex-col justify-center items-center w-[340px] h-auto rounded-[20px] mx-[37px] mt-[95px] dark:text-white md:w-[1146px] h-auto mt-[157px] mx-[147px]">
       <img
-        className="animate-pulse w-[106px] absolute top-[-50px] left-[80px] z-[1] md:top-[-50px] left-[-50px]"
+        className="animate-pulse w-[106px] absolute top-[-50px] left-[40px] z-[1] md:top-[-50px] left-[-40px]"
         src="./src/Graphics/pattern.svg"
         />
         <img
-        className="animate-pulse w-[106px] absolute top-[500px] right-[50px] z-[1] md:top-[485px] right-[-50px]"
+        className="animate-pulse w-[106px] absolute top-[500px] right-[40px] z-[1] md:top-[485px] right-[-40px]"
         src="./src/Graphics/pattern.svg"
         />
         <div className="flex grid grid-cols-1 mx-[44px] mt-[11px] w-[251px] md:w-[789px] mt-[24px]  mx-[179px]">
