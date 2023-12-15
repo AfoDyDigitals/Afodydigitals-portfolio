@@ -20,15 +20,16 @@ function App() {
 
   return (
     <div
-      className={`relative w-[100vw] ${theme ? "bg-black" : "bg-white"} ${theme ? "text-white" : "text-black"}`}
+      className={`relative w-[100vw] ${theme ? "bg-black" : "bg-white"} ${theme ? "text-white" : "text-black"
+}`}
     >
       <BrowserRouter>
-        <NavBar switchMode={toggle} theme={theme} />
+        <NavBar switchMode={toggle} NavTheme={theme} />
 
         <Routes>
-          <Route path="/" element={<Home theme={theme} />} />
-          <Route path="/about" element={<About theme={theme} />} />
-          <Route path="/skills" element={<Skills theme={theme} />} />
+          <Route path="/" element={<Home textColor={theme} />} />
+          <Route path="/about" element={<About AboutTextColors={theme} />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<ContactForm />} />
         </Routes>

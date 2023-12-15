@@ -5,19 +5,16 @@ import Skills from './Skills'
 import Project from './Project'
 import ContactForm from './ContactForm'
 
-function Home(theme) {
-  // const [theme, setTheme] = useState(false);
-  // function toggle() {
-  //   setTheme(!theme);
-  // }
+function Home({textColor}) {
+  // function Home (props) {
   
   return (
     <div>
-        <Hero theme={theme}/>
-        <About theme={theme} />
-        <Skills theme={theme}/>
-        <Project theme={theme}/>
-        <ContactForm theme={theme}/>
+        <Hero effect={textColor}/>
+        <About AboutTextColors={textColor} />
+        <Skills />
+        <Project />
+        <ContactForm />
     </div>
   )
 }

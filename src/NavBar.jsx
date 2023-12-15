@@ -25,7 +25,7 @@ function NavBar(props) {
     <div className="">
       <nav
         className={`${
-          props.theme ? "bg-black" : "bg-white"
+          props.NavTheme ? "bg-black" : "bg-white"
         } w-[100%] pt-[50px]  mb-[20px] px-[36px] flex justify-center items-center justify-between z-10 md:px-[129px] flex justify-center items-center justify-between`}
       >
         <NavLink  to="/">
@@ -35,7 +35,7 @@ function NavBar(props) {
         </NavLink>
         <div
           className={`${
-            props.theme ? "text-white" : "text-black"
+            props.NavTheme ? "text-white" : "text-black"
           } hidden md:flex ml-[155px] mr-[135px] gap-[50px] text-xl font-bold `}
         >
           <NavLink style={navLinkStyles} to="about">
@@ -56,7 +56,7 @@ function NavBar(props) {
             Hire me
           </div>
         </NavLink>
-        {props.theme ? (
+        {props.NavTheme ? (
           <img
             onClick={darkmode}
             className="cursor-pointer bg-amber-500 rounded-[20px] w-[24px] md:w-[40px]"

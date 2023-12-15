@@ -18,14 +18,14 @@ function Hero(props) {
         <div className="flex flex-col justify-center items-center mx-[102px] md: ">
           <div
             className={`${
-              props.theme ? "text-white" : "text-black"
+              props.effect ? "text-white" : "text-black"
             } text-[18px] font-bold md:text-[33px] font-bold text-center`}
           >
             Hi there,
           </div>
           <div
             className={`${
-              props.theme ? "text-white" : "text-black"
+              props.effect ? "text-white" : "text-black"
             } text-center  text-[38px] font-bold md:text-[69px] font-bold`}
           >
             I am a UI & Frontend <br></br>Designer
