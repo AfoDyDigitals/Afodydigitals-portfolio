@@ -5,7 +5,7 @@ function UiProjects() {
   return (
     <div id="ui-projects">
       <div
-        className=" hidden mt-[74px] gap-[74px] flex  justify-center items-center md:hidden flex flex-wrap mx-[169px]"
+        className="mt-[74px] gap-[74px] flex  justify-center items-center md:flex flex-wrap mx-[169px]"
         
       >
         <Card

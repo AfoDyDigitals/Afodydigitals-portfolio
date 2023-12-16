@@ -20,8 +20,9 @@ function App() {
 
   return (
     <div
-      className={`relative w-[100vw] ${theme ? "bg-black" : "bg-white"} ${theme ? "text-white" : "text-black"
-}`}
+      className={`relative w-[100vw] h-[100vh] ${theme ? "bg-black" : "bg-white"} ${
+        theme ? "text-white" : "text-black"
+      }`}
     >
       <BrowserRouter>
         <NavBar switchMode={toggle} NavTheme={theme} />
