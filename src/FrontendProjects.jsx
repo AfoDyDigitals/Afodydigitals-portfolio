@@ -22,7 +22,7 @@ function FrontendProjects() {
           heading="Implementing a Figma Desktop View Webpage"
           description="The static landing page Figma design was implemented using React components"
           link="https://github.com/AfoDyDigitals/Trafalgar-landing-page"
-          icon="/public/Graphics/Github2.svg"
+          icon="./Graphics/Github2.svg"
           button={<a href="https://trafalgar-landing-page-hi86.onrender.com/ " target="_blank">Preview</a>}
         />
 
@@ -31,7 +31,7 @@ function FrontendProjects() {
           heading="A Responsive Webpage"
           description="The webpage was built using basic Basic CSS and Media Query"
           link="https://github.com/AfoDyDigitals/Responsive-Webpage/tree/master"
-          icon="/public/Graphics/Github2.svg"
+          icon="./Graphics/Github2.svg"
           button={<a href="https://afodydigitals.github.io/Responsive-Webpage/" target="_blank">Preview</a>}
         />
 
@@ -40,7 +40,7 @@ function FrontendProjects() {
           heading="Responsive Portfolio Webpage"
           description="The webpage was built using Tailwindcss and Flowbite components"
           link="https://github.com/AfoDyDigitals/portfolio-webpage-project/tree/main/src"
-          icon="/public/Graphics/Github2.svg"
+          icon="./Graphics/Github2.svg"
           button={<a href="https://afodydigitals.github.io/portfolio-webpage-project/src/index.html" target="_blank">Preview</a>}
         />
       </div>
