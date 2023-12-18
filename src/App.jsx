@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div
-      className={`relative w-[100vw] h-[100vh] ${theme ? "bg-black" : "bg-white"} ${
+      className={`relative w-[100vw] h-[auto] ${theme ? "bg-black" : "bg-white"} ${
         theme ? "text-white" : "text-black"
       }`}
     >
