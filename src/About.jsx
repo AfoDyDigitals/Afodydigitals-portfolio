@@ -5,7 +5,7 @@ function About(props) {
   return (
     <div className=" flex flex-col justify-center items-center gap-[8px] mt-[50px] mb-[30px] mx-[52px] md:flex-row items-left gap-[181.93px] mt-[150px]  mx-[146px] mb-[30px]">
       <div className="w-[247.55px] h-[245.86px] md:w-[367.31px] h-[364.8px]">
-        <img src="./src/Graphics/Hero-webdev.svg" />
+        <img src="./Graphics/Hero-webdev.svg" />
       </div>
       <div className="flex flex-col justify-center items-center text-center px-[52px] md:grid justify-items-start">
         <div className="text-[20px] font-bold text-amber-500 md:text-[43px]">

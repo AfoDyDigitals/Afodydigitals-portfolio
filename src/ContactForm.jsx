@@ -7,11 +7,11 @@ function ContactForm() {
       <form action="https://formsubmit.co/3eb90342a33563ddc936921fdb53668a" method="POST" className="relative bg-black border-2 border-white flex flex-col justify-center items-center w-[340px] h-auto rounded-[20px] mx-[37px] mt-[95px] dark:text-white md:w-[1146px] h-auto mt-[157px] mx-[147px]">
       <img
         className="animate-pulse w-[106px] absolute top-[-50px] left-[40px] z-[1] md:top-[-50px] left-[-40px]"
-        src="./src/Graphics/pattern.svg"
+        src="./Graphics/pattern.svg"
         />
         <img
         className="animate-pulse w-[106px] absolute top-[500px] right-[40px] z-[1] md:top-[485px] right-[-40px]"
-        src="./src/Graphics/pattern.svg"
+        src="./Graphics/pattern.svg"
         />
         <input type="hidden" name="_template" value="box"></input>
         <input type="hidden" name="_subject" value="New Portfolio Webpage Enquiry!"></input>

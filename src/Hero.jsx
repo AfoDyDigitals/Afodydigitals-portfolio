@@ -6,13 +6,13 @@ function Hero(props) {
     <div className="w-[100%]">
       <img
         className="w-[106px] absolute top-[300px] animate-bounce"
-        src="./src/Graphics/pattern.svg"
+        src="./Graphics/pattern.svg"
       />
       <div className="flex flex-col space-y-2 justify-center items-center mt-[100px] md:flex flex-col space-y-2 px-[147px] justify-center items-center">
         <div className="flex justify-center items-center">
           <img
             className="w-[281px] h-[200px] md:w-[412.11px] h-[293.28px]"
-            src="./src/Graphics/man.svg"
+            src="./Graphics/man.svg"
           />
         </div>
         <div className="flex flex-col justify-center items-center mx-[102px] md: ">
@@ -49,13 +49,13 @@ function Hero(props) {
         <a href="https://dribbble.com/AfoDyDigitals">
           <img
             className="cursor-pointer w-[32px] md:w-[40.34px]"
-            src="./src/Graphics/Dribbble.svg"
+            src="./Graphics/Dribbble.svg"
           />
         </a>
         <a href="https://github.com/AfoDyDigitals">
           <img
             className="cursor-pointer w-[32px] md:w-[40.34px]"
-            src="./src/Graphics/Github.svg"
+            src="./Graphics/Github.svg"
           />
         </a>
       </div>

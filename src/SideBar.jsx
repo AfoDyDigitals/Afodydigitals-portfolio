@@ -16,7 +16,7 @@ function SideBar({ isVisible, toggleSidebar }) {
       <img
         onClick={toggleSidebar}
         className="cursor-pointer w-[24px] mx-[21px] my-[28px]"
-        src="./src/Graphics/CloseIcon.svg"
+        src="./Graphics/CloseIcon.svg"
       />
       <div className="flex flex-col text-black gap-[22px] mt-[50px] mb-[50px]">
       
@@ -36,13 +36,13 @@ function SideBar({ isVisible, toggleSidebar }) {
       <a href="https://dribbble.com/AfoDyDigitals" target="_blank">
           <img
             className="cursor-pointer w-[24px]"
-            src="./src/Graphics/DribbbleSidebar.svg"
+            src="./Graphics/DribbbleSidebar.svg"
           />
         </a>
         <a href="https://github.com/AfoDyDigitals" target="_blank">
           <img
             className="cursor-pointer w-[24px]"
-            src="./src/Graphics/GithubSidebar.svg"
+            src="./Graphics/GithubSidebar.svg"
           />
         </a>
       </div>

@@ -16,13 +16,13 @@ function Footer(props) {
           <a href="https://dribbble.com/AfoDyDigitals">
             <img
               className="cursor-pointer w-[32px] md:w-[40.34px]"
-              src="./src/Graphics/Dribbble.svg"
+              src="./Graphics/Dribbble.svg"
             />
           </a>
           <a href="https://github.com/AfoDyDigitals">
             <img
               className="cursor-pointer w-[32px] md:w-[40.34px]"
-              src="./src/Graphics/Github.svg"
+              src="./Graphics/Github.svg"
             />
           </a>
         </div>
@@ -51,11 +51,11 @@ function Footer(props) {
         </NavLink>
         {/* <img
           className="hidden cursor-pointer bg-amber-500 rounded-[20px] w-[24px] md:mr-[257px] w-[40px]"
-          src="./src/Graphics/darkmode.svg"
+          src="./Graphics/darkmode.svg"
         />
         <img
           className="hidden cursor-pointer inline-block w-[48px] h-[32px] sm:hidden"
-          src="./src/Graphics/menubar.svg"
+          src="./Graphics/menubar.svg"
         /> */}
       </div>
     </div>

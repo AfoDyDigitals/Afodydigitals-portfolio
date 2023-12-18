@@ -9,7 +9,7 @@ function toggle(){
     <div className="relative">
       <img
         className="animate-pulse w-[106px] absolute top-[50px] right-[30px] z-[0]"
-        src="./src/Graphics/pattern.svg"
+        src="./Graphics/pattern.svg"
       />
 
       <div className="flex justify-center items-center bg-gray-200 w-[300px] h-[43px] mx-[auto] gap-[58px] items-center rounded-[20px] justify-between md:w-[420px] h-[43px] gap-[87px] mx-[auto] ">

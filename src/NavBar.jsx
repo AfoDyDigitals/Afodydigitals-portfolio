@@ -60,13 +60,13 @@ function NavBar(props) {
           <img
             onClick={darkmode}
             className="cursor-pointer bg-amber-500 rounded-[20px] w-[24px] md:w-[40px]"
-            src="./src/Graphics/lightmode.svg"
+            src="./Graphics/lightmode.svg"
           />
         ) : (
           <img
             onClick={darkmode}
             className="cursor-pointer bg-amber-500 rounded-[20px] w-[24px] md:w-[40px]"
-            src="./src/Graphics/darkmode.svg"
+            src="./Graphics/darkmode.svg"
           />
         )}
 
@@ -74,7 +74,7 @@ function NavBar(props) {
           <img
             onClick={toggleSidebar}
             className="cursor-pointer inline-block w-[48px] h-[32px] md:hidden opacity-0"
-            src="./src/Graphics/menubar.svg"
+            src="./Graphics/menubar.svg"
           />
         )}
 
@@ -82,7 +82,7 @@ function NavBar(props) {
           <img
             onClick={toggleSidebar}
             className="cursor-pointer inline-block w-[48px] h-[32px] md:hidden"
-            src="./src/Graphics/menubar.svg"
+            src="./Graphics/menubar.svg"
           />
         )}
         {isSidebarVisible && <SideBar toggleSidebar={toggleSidebar} />}
