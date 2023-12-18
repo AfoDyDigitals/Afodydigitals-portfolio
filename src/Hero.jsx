@@ -8,13 +8,12 @@ function Hero(props) {
         className="w-[106px] absolute top-[300px] animate-bounce"
         src="./Graphics/pattern.svg"
       />
-      <div className="flex flex-col space-y-2 justify-center items-center mt-[100px] md:flex flex-col space-y-2 px-[147px] justify-center items-center">
-        <div className="flex justify-center items-center">
+      <div className="flex flex-col space-y-2 mx-[93px] justify-center items-center mt-[50px]  md:flex flex-col space-y-2 mx-[147px] justify-center items-center mt-[100px]">
           <img
             className="w-[421px] h-[300px] md:w-[412.11px] h-[293.28px]"
             src="./Graphics/man.svg"
           />
-        </div>
+        
         <div className="flex flex-col justify-center items-center mx-[102px] md: ">
           <div
             className={`${
