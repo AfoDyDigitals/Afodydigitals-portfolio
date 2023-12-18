@@ -11,7 +11,7 @@ function Hero(props) {
       <div className="flex flex-col space-y-2 justify-center items-center mt-[100px] md:flex flex-col space-y-2 px-[147px] justify-center items-center">
         <div className="flex justify-center items-center">
           <img
-            className="w-[281px] h-[200px] md:w-[412.11px] h-[293.28px]"
+            className="w-[421px] h-[300px] md:w-[412.11px] h-[293.28px]"
             src="./Graphics/man.svg"
           />
         </div>
